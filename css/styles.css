@@ -1,0 +1,159 @@
+body{
+  text-align: center;
+   margin: 0;
+   font-family:sans-serif;
+   color: #40514e;
+}
+.profile-pic{
+  margin: 100px auto;
+}
+.intro{
+  width:30%;
+  margin: auto;
+}
+
+a{
+  color: #11999e;
+  font-family:sans-serif;
+  margin:10px 20px;
+  text-decoration: none;
+  }
+a:hover{
+  color: #eaf6f6;
+}
+
+p{
+  line-height: 2;
+}
+
+.copywrite{
+  color: #eaf6f6;
+  font-size: .75rem;
+  padding: 20px 0;
+}
+.hori-rule{
+  height:5px;
+  width: 5%;
+  border-style: none;
+  border-top-style: dotted;
+  border-color: #EAF6F6;
+  border-width: 10px;
+}
+.top-container{
+  background-color: #eaf6f6;
+  position:relative;
+  padding-top: 100px;
+
+}
+
+.bottom-container{
+  background-color: #66bfbf;
+  padding: 50px 0 20px;
+
+}
+
+.h1{
+    margin: 0;
+  font-family:'Sacramento',cursive;
+  font-size: 70px;
+  color:#66bfbf;
+
+
+  /*font-size:562.5%;*/
+  /*font-size:5.625rem;*/
+  /*100% =16px=1em*/
+  /* px is Static size
+  Dynamic  font size can be given using %age and rem as values*/
+ /*
+ % and em have inheritance properties, i.e. If font-size in body is given as 2em,
+ then font-size of heading which is over the body will also increase and inherit body property as well.
+ Before it was 5.625em but after inheritance it will become  2em + 5.625 em = 7.625em
+ */
+ /*If the user wants to get freed from any kind of inheritance then we use rem(where r is root em),
+it will apply specific property despite of parent properties.
+ */
+}
+/*margin:0  means all four sides will be made 0 pixels.*/
+.a-cloud{
+  position: absolute;
+  height: 200px;
+  width:200px;
+  top: 40px;
+  right: 300px;
+}
+.b-cloud{
+  position: absolute;
+  height: 200px;
+  width:200px;
+  bottom: 300px;
+  left: 300px;
+}
+
+.headi{
+  /*visibility: hidden;*/
+    background-color: orange;
+}
+.hedi1{
+  font-size: 2.5rem;
+  margin: 50px auto 0 auto; /*top right bottom left*/
+  display:block;
+
+
+}
+h2{
+  font-size: 40px;
+  color:#66bfbf;
+  font-weight: normal;
+}
+h3{
+  color: #11999e;
+}
+
+.skill-row{
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;/*2 means double*/
+
+
+/*  text-align: center;
+  display: inline-block;*/
+}
+.code-img{
+  width: 25%;
+float:left;
+margin-right: 20px;
+}
+.chilli-img{
+width: 25%;
+float:right;
+margin-left: 20px;
+}
+
+
+.btn{
+background: #11cdd4;
+background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+-webkit-border-radius: 8;
+-moz-border-radius: 8;
+border-radius: 8px;
+font-family:sans-serif;
+color: #ffffff;
+font-size: 20px;
+padding: 10px 20px 10px 20px;
+text-decoration: none;
+}
+
+.btn:hover {
+background: #30e3cb;
+background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+text-decoration: none;
+}
